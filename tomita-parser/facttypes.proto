@@ -1,0 +1,7 @@
+import "base.proto";
+import "facttypes_base.proto";
+
+message Data : NFactType.TFact {
+    optional string Person_output = 1;
+    optional string Object_output = 2;
+}
